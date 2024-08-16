@@ -1,0 +1,18 @@
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    def supportVer = "27.0.1"
+    if (project.hasProperty("supportVersion")) {
+        supportVer = supportVersion
+    }
+    def kotlinVer = "1.7.10"
+    if (project.hasProperty("kotlinVersion")) {
+        kotlinVer = kotlinVersion
+    }
+    implementation "com.android.support:appcompat-v7:$supportVer"
+    implementation "com.github.tapadoo:alerter:7.2.4"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVer"
+}
