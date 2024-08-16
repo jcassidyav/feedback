@@ -1,9 +1,6 @@
 # NativeScript Feedback
 
 
-[![NPM version][npm-image]][npm-url]
-[![Downloads][downloads-image]][npm-url]
-
 
 [npm-image]:http://img.shields.io/npm/v/nativescript-feedback.svg
 [npm-url]:https://npmjs.org/package/@jcassidyav/feedback
